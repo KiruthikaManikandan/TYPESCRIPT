@@ -1,0 +1,24 @@
+#maindiv{
+    display: block;
+    text-align: center;
+}
+#newuserdiv{
+    display: none;
+    text-align: center;
+}
+#logindiv{
+    display: none;
+    text-align: center;
+}
+#optiondiv{
+    display: none;
+    text-align: center;
+}
+#Availablediv{
+    display: none;
+    text-align: center;
+}
+#Enrolldetails{
+    display: none;
+    text-align: center;
+}

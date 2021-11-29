@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE COUSE ALLOTMENT</title>
+    <link rel="stylesheet" href="style/css-style.css">
+    <script src="script/typescript.js"></script>
+</head>
+<body>
+    <div id="maindiv">
+    <p><b>ONLINE COUSE ALLOTMENT</b></p>
+    <button onclick=" newuserpage()">NEW USER</button>
+    <button onclick=" login()">LOGIN</button>
+    </div>
+    <div id="newuserdiv">
+        <p><b>NEW USER LOGIN PAGE</b></p> <br>
+        <label for="name">NAME:</label>
+        <input type="text" name="username" id="username"> <br>
+        <label for="age">AGE:</label>
+        <input type="number" name="age" id="age"> <br>
+        <label for="phone">PHONE NUMBER:</label>
+        <input type="number" name="phonenumber" id="phonenumber"> <br>
+         <br>
+         <button onclick="checkuser()">SUBMIT</button>or
+         <button onclick="maindiv()">Go to main menu</button>
+
+    </div>
+    <div id="logindiv">
+        <p><b>LOGIN into your account</b></p> <br>
+        <label for="userid">USER ID:</label>
+        <input type="text" name="userid" id="userid">
+
+        <button onclick="option()">LOG IN</button> <br>
+        <label id="available user"></label>
+
+    </div>
+    <div id="optiondiv">
+         <p><b>Enter Your Choice</b></p> <br>
+
+        <button onclick="available()">Available Course</button>
+        <button onclick=" enrolledhistory()">Enrolled Course</button>
+
+    </div>
+    <div id="Availablediv">
+        <select name="course" id="course">
+            <option value="C#">C#</option>
+            <option value="HTMLL">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="TypeScript">TypeScript</option>
+        </select> <br>
+        <label for="days">Required Days for Completion:</label>
+        <input type="number" name="RequiredDate" id="RequiredDate"> <br>
+
+        <button onclick="maindiv()">Enroll</button>
+    </div>
+    <div id="Enrolldetails">
+        <label for="Coursename" id="Coursename"></label>
+        <label for="day" id="day"></label>
+        <label for="totalday" id="totalday"></label>
+
+    </div>
+</body>
+</html>
